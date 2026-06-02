@@ -15,6 +15,6 @@ public class SmartdeskTestApplication {
 
     @GetMapping("/health")
     public String health() {
-        return "Hello from Jenkins + Docker!";
+        return "Jenkins Pipeline connected to Docker Engine";
     }
 }
